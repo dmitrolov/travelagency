@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 105px;
+    background-color: #388BBD;
+    margin: 0 25%;
+    display: flex;
+}
+.logo, .contacts {
+    border: 1px solid red;
+    flex-grow: 1;
+}
+.nav {
+    border: 1px solid red;
+    padding: 1.5em;
+    flex-grow: 3;
+}
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+}
+.nav1__item {
+    color: white;
+}
